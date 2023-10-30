@@ -1,0 +1,49 @@
+import random
+import time
+
+def greeting():
+    txt = 'Добро пожаловать в игру!'
+    for i in txt:
+        time.sleep(0.1)
+        print(i, end='', flush=True)
+    print()
+
+def main():
+    txt = 'Вы находитесь в заброшенном особняке...'
+    for i in txt:
+        time.sleep(0.1)
+        print(i, end='', flush=True)
+    print()
+    time.sleep(2)
+    txt = 'Вдруг вы слышите шорохи и видите призрачную фигуру!'
+    for i in txt:
+        time.sleep(0.1)
+        print(i, end='', flush=True)
+    print()
+    time.sleep(2)
+    txt = 'Вам нужно убежать от призрака и найти способ его уничтожить.'
+    for i in txt:
+        time.sleep(0.1)
+        print(i, end='', flush=True)
+    print()
+    time.sleep(0.2)
+
+def character_wins():
+    txt = 'Вы сможете сбежать, если найдете ключ'
+    for i in txt:
+        time.sleep(0.1)
+        print(i, end='', flush=True)
+    print()
+
+def chara():
+        txt = 'Вы нашли ключ и убрались с этого особняка, теперь вы спасены'
+        for i in txt:
+            time.sleep(0.02)
+            print(i, end='', flush=True)
+        print()
+
+
+greeting()
+main()
+character_wins()
+chara()
